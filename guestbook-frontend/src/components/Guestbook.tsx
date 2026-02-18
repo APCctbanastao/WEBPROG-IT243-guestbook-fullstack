@@ -6,7 +6,7 @@ interface GuestbookPost {
   message: string;
 }
 
-const API_URL = 'https://fluffy-space-halibut-r4v77xjprqw52xw54-3002.app.github.dev/';
+const API_URL = 'https://fluffy-space-halibut-r4v77xjprqw54-3002.app.github.dev/guestbook';
 
 export const Guestbook = () => {
   const [posts, setPosts] = useState<GuestbookPost[]>([]);
